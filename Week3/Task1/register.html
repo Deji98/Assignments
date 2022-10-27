@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: aqua;
+        background-image: url(../Task2/Images/deji1.jpeg);
+      }
+
+      .figure {
+        background-color: white;
+        text-align: center;
+        width: 20%;
+        /* display: flex; */
+        border-radius: 10px;
+        background: rgba(233, 235, 233, 0.3);
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 40px;
+        height: 500px;
+        position: relative;
+      }
+      #heading {
+        text-align: center;
+        color: blue;
+      }
+      .form {
+        text-align: center;
+        color: blue;
+      }
+      .button {
+        background-color: #544caf; /* Green */
+        border: none;
+        color: rgb(2, 2, 3);
+        padding: 14px 50px;
+        display: inline-block;
+        font-size: 16px;
+        font-family: cursive;
+        font-weight: bolder;
+        border-radius: 10%;
+        box-shadow: 8px 16px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        opacity: 2;
+        text-decoration: none;
+      }
+    </style>
+    <header id="heading">
+      <h3>Registration page</h3>
+    </header>
+    <br />
+    <main>
+      <figure class="figure">
+        <form class="form">
+          <label for="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <label for="lname">Last name:</label><br />
+          <input type="text" id="lname" name="lname" /><br />
+          <label for="phone">Phone:</label><br />
+          <input type="text" id="phone" name="phone" /><br />
+          Gender: <br /><select select name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option></select
+          ><br />
+          <label for="country">country:</label><br />
+          <input type="text" id="country" name="country" /><br />
+          <label for="state/province">state/province:</label><br />
+          <input type="text" id="state/province" name="state/province" /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br />
+          <label for="password">Password:</label><br />
+          <input type="Password" id="Password" name="Password" /><br />
+          <label for="password">Confirm Password:</label><br />
+          <input type="password" id="password" name="confirm password" /><br />
+          <p>
+            <a class="button" target="_blank" href="../Task2/successful.html"
+              >Submit</a
+            >
+          </p>
+        </form>
+      </figure>
+    </main>
+  </body>
+</html>

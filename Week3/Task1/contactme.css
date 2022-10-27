@@ -1,0 +1,19 @@
+body {
+  background-image: url(../Task2/Images/nathan-dumlao-zUNs99PGDg0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#button {
+  background-color: #544caf; /* Green */
+  border: none;
+  color: rgb(2, 2, 3);
+  padding: 14px 50px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: cursive;
+  font-weight: bolder;
+  border-radius: 10%;
+  box-shadow: 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 2;
+  width: 20%;
+}

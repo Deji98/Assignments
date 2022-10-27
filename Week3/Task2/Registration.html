@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="Registration.css" />
+  </head>
+  <body>
+    <div class="forme">
+      <heading>
+        <h1>Registration Page</h1>
+      </heading>
+      <form action="./success.html">
+        <div>
+          <label for="fname">First Name:</label> <br />
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your first Name"
+            required /></div
+        ><br />
+
+        <div>
+          <label for="lname">last Name:</label><br />
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your last Name"
+            required /></div
+        ><br />
+
+        <div>
+          <label for="phone-number">Phone Number:</label><br />
+          <input
+            type="number"
+            name="number"
+            placeholder="Enter your Phone Number"
+            required
+        /></div>
+        <br />
+
+        <div>
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your Email Address"
+            required /></div
+        ><br />
+
+        <div>
+          <label for="gender">Gender:</label><br />
+          <select>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </div>
+        <br />
+
+        <div>
+          <label for="DOB">Date of Birth:</label><br />
+          <input type="date" name="date" required />
+        </div>
+        <br />
+        <div>
+          <label for="color">Favorite color:</label>
+          <input type="color" name="color" value="color" id="color" />
+        </div>
+        <div>
+          <a target="_blank"><button type="submit">Register</button></a>
+        </div>
+        <br />
+        <div
+          >Registered?
+          <span><a href="/login.html" target="_blank">Login here</a></span></div
+        >
+      </form>
+    </div>
+  </body>
+</html>
